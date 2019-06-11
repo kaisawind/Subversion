@@ -36,7 +36,7 @@ VS2012 创建的工程
 	stdafx.cpp
 	stdafx.h
 	targetver.h
-```shell
+```
 
 ## 3. 编译及运行
 
