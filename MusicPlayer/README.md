@@ -1,12 +1,17 @@
-MusicPlayer
-=====================
+# MusicPlayer
+
+## 1. 概述
+
 VS2012 创建的工程
 使用WINAPI编程
-=====================
+
+## 2. 源代码目录结构
+
+```shell
     MusicPlayer.sln
     README.md
     设计文档.xlsx
-----MusicPlayer
+    MusicPlayer\
 		CFilesProcessor.cpp
 		CFilesProcessor.h
 		CMusicProcessor.cpp
@@ -31,15 +36,20 @@ VS2012 创建的工程
 		stdafx.cpp
 		stdafx.h
 		targetver.h
-=======================
+```shell
+
+## 3. 编译及运行
 
 编译工程时会产生Debug或者Release文件夹
 需要将MusicPlayer文件夹下的libzplay.dll拷贝到
 Debug或者Release文件夹下
+
 目录结构
-----MusicPlayer
---------Debug
---------	libzplay.dll
---------	...
---------MusicPlayer
+```shell
+MusicPlayer
+  Debug
+    libzplay.dll
+    ...
+    MusicPlayer
+```shell
 --------	...
